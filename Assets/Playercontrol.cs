@@ -22,6 +22,6 @@ public class Playercontrol : MonoBehaviour {
 		selvmord = false;
 	}
 	private void Movement(){
-		PlayerRig.AddForce(Vector2.up*200);
+		PlayerRig.AddForce(Vector2.up*1000);
 	}
 }
